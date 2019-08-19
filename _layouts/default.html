@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ page.title }}</title>
+    <!-- link to main stylesheet -->
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="/"><i class='fas fa-home'></i>Home</a></li>
+            <li><a href="/my_story">My Story</a></li>
+            <li><a href="/cv">CV</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+       {{ content }}
+    </div><!-- /.container -->
+    <footer>
+        <ul>
+            <li>
+                <a href="https://github.com/HenrYxZ"><i class="fab fa-github"></i></a>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>
