@@ -14,3 +14,6 @@ defaults:
 # change this to your tracking ID or if you don't have remove
 # the include analytics.html code in the head element and this google_analytics line
 google_analytics: UA-148898559-2
+github-url: https://github.com/HenrYxZ
+linkedin-url: https://www.linkedin.com/in/hernaldo-henriquez
+youtube-url: https://www.youtube.com/user/xhenryx14
