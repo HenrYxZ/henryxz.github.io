@@ -2,12 +2,17 @@
 layout: default
 title: Projects - Hernaldo Jesús
 ---
-<div>
+<div class="mb-4">
+  <h2 class="d-inline">Projects:</h2>
   <a
     href="{% link assets/files/portfolio.pdf %}"
-    class="btn btn-dark float-right"
-  >
+    class="btn btn-dark float-right">
     Download PDF <i class="fas fa-file-download"></i>
   </a>
-  You can download my portfolio in the link and look at some of my work :)
 </div>
+{% for project in site.projects %}
+  <div class="mb-4">
+    <h3>{{ project.name }} - {{ project.date-range }}</h3>
+    {{ project.content}}
+  </div>
+{% endfor %}

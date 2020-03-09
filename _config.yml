@@ -17,3 +17,12 @@ google_analytics: UA-148898559-2
 github-url: https://github.com/HenrYxZ
 linkedin-url: https://www.linkedin.com/in/hernaldo-henriquez
 youtube-url: https://www.youtube.com/user/xhenryx14
+
+collections:
+  projects:
+    order:
+      - object-classification.html
+      - raytracer.html
+      - obj-viewer.html
+      - animation.html
+      - life-drawing.html
