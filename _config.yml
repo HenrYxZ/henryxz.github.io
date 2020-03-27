@@ -22,7 +22,8 @@ collections:
   projects:
     order:
       - object-classification.html
-      - raytracer.html
-      - obj-viewer.html
+      - python-raytracer.html
       - animation.html
       - life-drawing.html
+      - raytracer.html
+      - obj-viewer.html
