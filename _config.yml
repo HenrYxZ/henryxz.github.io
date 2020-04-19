@@ -19,11 +19,4 @@ linkedin-url: https://www.linkedin.com/in/hernaldo-henriquez
 youtube-url: https://www.youtube.com/user/xhenryx14
 
 collections:
-  projects:
-    order:
-      - object-classification.html
-      - python-raytracer.html
-      - animation.html
-      - life-drawing.html
-      - raytracer.html
-      - obj-viewer.html
+  - projects
