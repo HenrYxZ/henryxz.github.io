@@ -41,22 +41,33 @@
         <div class="collapse navbar-collapse" id="navbar-menu">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="{% link index.html %}">
-                <i class='fas fa-home pr-1'></i>Home
+              <a class="nav-link" href="{% link cv/index.html %}">
+                CV
               </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="{% link my_story/index.html %}">
-                My Story
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="{% link cv/index.html %}">CV</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="{% link projects/index.html %}">
                 Projects
               </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="{% link about_me/index.html %}"
+                role="button"
+                id="dropdownAboutMe" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                About Me
+              </a>
+              <div class="dropdown-menu" aria-labelledby="dropdownAboutMe">
+                <a
+                  class="dropdown-item"
+                  href="{% link about_me/my_story/index.html %}">
+                  My Story
+                </a>
+                <a class="dropdown-item" href="#">Influences</a>
+                <a class="dropdown-item" href="#">Hobbies</a>
+              </div>
             </li>
           </ul>
           <ul class="navbar-nav ml-sm-auto">

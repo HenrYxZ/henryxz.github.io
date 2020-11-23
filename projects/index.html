@@ -3,16 +3,25 @@ layout: default
 title: Projects - Hernaldo Jesús
 ---
 <div class="mb-4">
-  <h1 class="d-inline">Projects</h1>
   <a
     href="{% link assets/files/portfolio.pdf %}"
     class="btn btn-dark float-right">
     Download PDF <i class="fas fa-file-download"></i>
   </a>
+  <h1>Projects</h1>
 </div>
-{% for project in site.projects %}
-  <div class="my-5">
-    <h3>{{ project.name }} - {{ project.date-range }}</h3>
-    {{ project.content}}
+
+<div class="categories text-center offset-lg-1 col-lg-8">
+  <div>
+    <a href="{% link projects/art/index.html %}">Traditional Art</a>
   </div>
-{% endfor %}
+  <div>
+    <a href="{% link projects/cs/index.html %}">Computer Science</a>
+  </div>
+  <div>
+    <a href="{% link projects/animation/index.html %}">Animation</a>
+  </div>
+  <div>
+    <a href="{% link projects/photo-film/index.html %}">Photography / Film</a>
+  </div>
+</div>

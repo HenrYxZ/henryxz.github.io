@@ -1,0 +1,12 @@
+---
+layout: default
+title: Art - Hernaldo Jesús
+---
+<h1> Projects / Art </h1>
+{% assign filtered_projects = site.projects | where: "category", "art" %}
+{% for project in filtered_projects %}
+  <div class="my-5">
+    <h3>{{ project.name }} - {{ project.date-range }}</h3>
+    {{ project.content}}
+  </div>
+{% endfor %}

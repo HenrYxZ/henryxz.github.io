@@ -24,6 +24,41 @@ html {
   }
 }
 
+h1 {
+  display: block;
+  text-align: center;
+}
+
+.categories {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+  > div {
+    background: #814c87;
+    padding: 1rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &::before {
+      // for apsect ratio
+      content: "";
+      display: block;
+      padding-bottom: 100%;
+    }
+    a {
+      color: white;
+      text-decoration: none;
+      display: block;
+      font-size: 2rem;
+    }
+  }
+}
+
+img {
+  max-width: 100%;
+}
+
 //
 // html {
 //   font-size: 1rem;

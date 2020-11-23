@@ -1,0 +1,12 @@
+---
+layout: default
+title: Computer Science - Hernaldo Jesús
+---
+<h1> Projects / Computer Science </h1>
+{% assign filtered_projects = site.projects | where: "category", "cs" %}
+{% for project in filtered_projects %}
+  <div class="my-5">
+    <h3>{{ project.name }} - {{ project.date-range }}</h3>
+    {{ project.content}}
+  </div>
+{% endfor %}

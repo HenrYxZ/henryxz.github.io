@@ -1,0 +1,12 @@
+---
+layout: default
+title: Photography - Hernaldo Jesús
+---
+<h1> Projects / Photography and Film </h1>
+{% assign filtered_projects = site.projects | where: "category", "photo-film" %}
+{% for project in filtered_projects %}
+  <div class="my-5">
+    <h3>{{ project.name }} - {{ project.date-range }}</h3>
+    {{ project.content}}
+  </div>
+{% endfor %}
