@@ -11,10 +11,6 @@
     <!-- link to main stylesheet -->
     <link rel="stylesheet" href="{{ 'assets/css/main.css' | relative_url }}" />
     <title>{{ page.title }}</title>
-    <!-- Code for adding Google Analytics, if you don't have it remove this lines -->
-    {% if site.google_analytics and jekyll.environment == 'production' %}
-      {% include analytics.html %}
-    {% endif %}
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
