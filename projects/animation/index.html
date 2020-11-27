@@ -2,7 +2,9 @@
 layout: default
 title: Animation - Hernaldo Jesús
 ---
-<h1> Projects / Animation </h1>
+<h1>
+  <a href="{% link projects/index.html%}">Projects</a> / Animation
+</h1>
 {% assign filtered_projects = site.projects | where: "category", "animation" %}
 {% for project in filtered_projects %}
   <div class="my-5">
