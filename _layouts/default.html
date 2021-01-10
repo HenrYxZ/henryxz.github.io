@@ -6,15 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
     <!-- link to main stylesheet -->
     <link rel="stylesheet" href="{{ 'assets/css/main.css' | relative_url }}" />
     <title>{{ page.title }}</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-center">
-      <div class="container">
+    <!--                   NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-gradient text-center">
+      <div class="container d-flex">
         <a class="navbar-brand" href="{% link index.html %}">
           <img
             src="/assets/img/android-chrome-512x512.png"
@@ -26,8 +29,8 @@
         <button
           class="navbar-toggler"
           type="button"
-          data-toggle="collapse"
-          data-target="#navbar-menu"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar-menu"
           aria-controls="navbar-menu"
           aria-expanded="false"
           aria-label="Toggle navigation"
@@ -49,24 +52,33 @@
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
-                href="{% link about_me/index.html %}"
+                href="#"
                 role="button"
-                id="dropdownAboutMe" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
+                id="dropdownAboutMe"
+                data-bs-toggle="dropdown"
+                aria-expanded="false">
                 About Me
               </a>
-              <div class="dropdown-menu" aria-labelledby="dropdownAboutMe">
+              <ul class="dropdown-menu" aria-labelledby="dropdownAboutMe">
                 <a
                   class="dropdown-item"
                   href="{% link about_me/my_story/index.html %}">
                   My Story
                 </a>
-                <a class="dropdown-item" href="#">Influences</a>
-                <a class="dropdown-item" href="#">Hobbies</a>
-              </div>
+                <a
+                  class="dropdown-item"
+                  href="{% link about_me/influences/index.md %}">
+                  Influences
+                </a>
+                <a
+                  class="dropdown-item"
+                  href="{% link about_me/hobbies/index.md %}">
+                  Hobbies
+                </a>
+              </ul>
             </li>
           </ul>
-          <ul class="navbar-nav ml-sm-auto">
+          <ul class="navbar-nav ms-auto">
             <li class="nav-item">
               <a class="nav-link" href="{{ site.github-url }}" target="_blank">
                 <i class="fab fa-github fa-lg"></i>
@@ -86,13 +98,16 @@
         </div>
       </div>
     </nav>
+    <!--            CONTAINER -->
     <div class="container my-3">
       {{ content }}
     </div>
     <!-- Javascript libraries (this is used for toggling navbar in small devices)-->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script> -->
   </body>
 </html>
