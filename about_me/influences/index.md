@@ -7,11 +7,20 @@ title: About Me - Hernaldo Jesús
 ## Music
 - Explosions in the Sky
 - Caspian
+- Sigur Ros
 - Radiohead
 
 ## Series
 - LOST
 - Twin Peaks
+- The Simpsons
+- The Walking Dead
+
+## Movies
+- The Lord of the Rings
+- Inception
+- Harry Potter
+- Eternal Sunshine of the Spotless Mind
 
 ## Videogames
 - The Last of Us
