@@ -18,14 +18,6 @@ li {
   margin: 0.5em 0;
 }
 
-p {
-  font-weight: lighter;
-}
-
-figcaption {
-  font-weight: lighter;
-}
-
 @media (min-width: 576px) {
   html {
     font-size: 1.1rem;
@@ -41,6 +33,9 @@ figcaption {
 @media (min-width: 992px) {
   html {
     font-size: 1.3rem;
+  }
+  p, figcaption {
+    font-weight: lighter;
   }
 }
 
