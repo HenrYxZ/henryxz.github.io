@@ -4,31 +4,31 @@ title: About Me - Hernaldo Jesús
 ---
 # Influences
 
-## Music
+## 🎵 Music
 - Explosions in the Sky
 - Caspian
 - Sigur Ros
 - Radiohead
 
-## Series
+## 📺 Series
 - LOST
 - Twin Peaks
 - The Simpsons
 - The Walking Dead
 
-## Movies
+## 🎞 Movies
 - The Lord of the Rings
 - Inception
 - Harry Potter
 - Eternal Sunshine of the Spotless Mind
 
-## Videogames
+## 👾 Videogames
 - The Last of Us
 - Uncharted
 - Battlefield
 - GTA
 
-## Books
+## 📖 Books
 - Niebla, Miguel de Unamuno
 - Hijo de Ladron, Manuel Rojas
 - 1984, George Orwell
