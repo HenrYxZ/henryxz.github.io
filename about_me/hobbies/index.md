@@ -6,6 +6,7 @@ title: Hobbies - Hernaldo Jesús
 
 - Watching many series, documentaries, movies 📺
 - Playing videogames 👾
-- Football Soccer ⚽
+- Playing Football Soccer ⚽
+- Going to concerts 🎸
 - Hiking and being in nature 🌄
-- Traveling (I have visited this countries 🇦🇷 🇦🇺 🇧🇦 🇧🇪 🇧🇷 🇧🇬 🇨🇦 🇨🇱 🇨🇷 🇨🇿 🇩🇪 🇩🇰 🇪🇦 🇫🇷 🇬🇧 🇬🇷 🇭🇷 🇭🇺 🇮🇱 🇲🇽 🇳🇱 🇵🇸 🇷🇴 🇷🇸 🇸🇪 🇺🇸)
+- Traveling. I love getting to know the different ways people live around the world (I have visited these countries 🇦🇷 🇦🇺 🇧🇦 🇧🇪 🇧🇷 🇧🇬 🇨🇦 🇨🇱 🇨🇷 🇨🇿 🇩🇪 🇩🇰 🇪🇦 🇫🇷 🇬🇧 🇬🇷 🇭🇷 🇭🇺 🇮🇱 🇲🇽 🇳🇱 🇵🇸 🇷🇴 🇷🇸 🇸🇪 🇺🇸)
