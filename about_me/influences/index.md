@@ -5,7 +5,7 @@ title: About Me - Hernaldo Jesús
 # Influences
 
 ## 🎵 Music
-- (Explosions in the Sky)[https://www.youtube.com/watch?v=ajTteM615Co]
+- [Explosions in the Sky](https://www.youtube.com/watch?v=ajTteM615Co)
 - Caspian
 - Sigur Ros
 - Radiohead
