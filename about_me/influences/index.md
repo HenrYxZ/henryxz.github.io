@@ -8,6 +8,7 @@ title: About Me - Hernaldo Jesús
 - [Explosions in the Sky](https://www.youtube.com/watch?v=ajTteM615Co)
 - Caspian
 - Sigur Ros
+- Godspeed You! Black Emperor
 - Radiohead
 - Wild Nothing
 
@@ -17,6 +18,7 @@ title: About Me - Hernaldo Jesús
 - The Simpsons
 - The Walking Dead
 - The Adventures of Pete & Pete
+- The OA
 
 ## 🎞 Movies
 - The Lord of the Rings
@@ -24,6 +26,7 @@ title: About Me - Hernaldo Jesús
 - Harry Potter
 - Eternal Sunshine of the Spotless Mind
 - Garden State
+- On Body and Soul
 
 ## 👾 Videogames
 - The Last of Us
