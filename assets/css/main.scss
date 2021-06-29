@@ -68,6 +68,12 @@ img {
   max-width: 100%;
 }
 
+video {
+  /* override other styles to make responsive */
+  width: 100%    !important;
+  height: auto   !important;
+}
+
 .embed-container {
   position: relative;
   padding-bottom: 56.25%;
