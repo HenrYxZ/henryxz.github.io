@@ -12,6 +12,10 @@ title: About Me - Hernaldo Jesús
 - Radiohead
 - Wild Nothing
 
+<a href="{{ site.spotify-url }}" target="_blank">
+    (Link to my Spotify <i class="fab fa-spotify fa-lg"></i>)
+</a>
+
 ## 📺 Series
 - LOST
 - Twin Peaks

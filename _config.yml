@@ -7,16 +7,11 @@ defaults:
     values:
       image: true
 
-# Google Analytics
-# -----------------------------------------------------------------------------
-# IMPORTANT! If you are copying this website DO NOT use this value of google_analytics
-# that would make the hits of your page go to my analytics account
-# change this to your tracking ID or if you don't have remove
-# the include analytics.html code in the head element and this google_analytics line
-google_analytics: UA-148898559-2
 github-url: https://github.com/HenrYxZ
 linkedin-url: https://www.linkedin.com/in/hernaldo-henriquez
 youtube-url: https://www.youtube.com/user/xhenryx14
+twitter-url: https://twitter.com/xhenryx14
+spotify-url: https://open.spotify.com/user/xhenryx14
 website-url: https://hernaldo.me
 
 collections:
