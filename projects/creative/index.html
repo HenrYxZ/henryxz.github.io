@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Animation - Hernaldo Jesús
+title: Creative - Hernaldo Jesús
 ---
 <h1>
-  <a href="{% link projects/index.html%}">Projects</a> / Animation and Games
+  <a href="{% link projects/index.html%}">Projects</a> / Creative
 </h1>
-{% assign filtered_projects = site.projects | where: "category", "animation" %}
+{% assign filtered_projects = site.projects | where: "category", "creative" %}
 {% for project in filtered_projects %}
   <div class="my-5">
     <h2>{{ project.name }} - {{ project.date-range }}</h2>

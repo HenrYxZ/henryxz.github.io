@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Computer Science - Hernaldo Jesús
+title: Aesthetics - Hernaldo Jesús
 ---
 <h1>
-  <a href="{% link projects/index.html %}">Projects</a> / Computer Science
+  <a href="{% link projects/index.html %}">Projects</a> / Aesthetics
 </h1>
-{% assign filtered_projects = site.projects | where: "category", "cs" %}
+{% assign filtered_projects = site.projects | where: "category", "aesthetics" %}
 {% for project in filtered_projects %}
   <div class="my-5">
     <h2>{{ project.name }} - {{ project.date-range }}</h2>

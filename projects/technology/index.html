@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Photography - Hernaldo Jesús
+title: Technology - Hernaldo Jesús
 ---
 <h1>
-  <a href="{% link projects/index.html %}">Projects</a> / Photography and Film
+  <a href="{% link projects/index.html %}">Projects</a> / Technology
 </h1>
-{% assign filtered_projects = site.projects | where: "category", "photo-film" %}
+{% assign filtered_projects = site.projects | where: "category", "tech" %}
 {% for project in filtered_projects %}
   <div class="my-5">
     <h2>{{ project.name }} - {{ project.date-range }}</h2>
