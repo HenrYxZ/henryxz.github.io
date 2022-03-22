@@ -44,6 +44,10 @@ li {
   flex-direction: column;
   > div {
     background: #814c87;
+    border-style: solid;
+    border-color: #5a355e;
+    border-width: 1px;
+    
     
     :hover, :active {
       background: #5a355e;
