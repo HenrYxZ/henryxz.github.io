@@ -1,7 +1,6 @@
 ---
-# this ensures Jekyll reads the file to be transformed into CSS later
-# only Main files contain this front matter, not partials.
 ---
+
 html {
   font-size: 1rem;
 }
@@ -85,3 +84,8 @@ video {
    width: 100%;
    height: 100%;
  }
+
+
+.navbar-brand {
+  font-family: Pacifico;
+}
