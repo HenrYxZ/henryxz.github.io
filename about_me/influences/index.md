@@ -16,6 +16,11 @@ title: About Me - Hernaldo Jesús
     (Link to my Spotify <i class="fab fa-spotify fa-lg"></i>)
 </a>
 
+<a href="{{ site.lastfm-url }}" target="_blank">
+    Link to my last.fm
+</a>
+
+
 ## 📺 Series
 - LOST
 - Twin Peaks

@@ -8,11 +8,13 @@ defaults:
       image: true
 
 github-url: https://github.com/HenrYxZ
+lastfm-url: https://www.last.fm/user/xhenryx14
 linkedin-url: https://www.linkedin.com/in/hernaldo-henriquez
 youtube-url: https://www.youtube.com/user/xhenryx14
 twitter-url: https://twitter.com/xhenryx14
 spotify-url: https://open.spotify.com/user/xhenryx14
 website-url: https://hernaldo.me
+twitch-url: https://www.twitch.tv/xsombrax14
 
 collections:
   - projects
